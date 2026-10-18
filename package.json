@@ -2,8 +2,10 @@
   "name": "gameoflife",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/aelkhamsi/gameoflife/issues"
   },
-  "homepage": "https://github.com/aelkhamsi/gameoflife#readme"
+  "homepage": "https://github.com/aelkhamsi/gameoflife#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
