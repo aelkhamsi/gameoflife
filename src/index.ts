@@ -1,4 +1,4 @@
-export function test() {
-  console.log('Hello, this is Game of Life!')
-  return
-}
+import { Grid } from "./Grid";
+
+const grid = new Grid()
+console.log('grid', grid.get(0, 0))
